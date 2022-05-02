@@ -11,7 +11,7 @@
     text-align:left;
     text-transform:uppercase;
     z-index:10;
-    float:right;
+    float:left;
     position:fixed;
 }
 .color{
@@ -34,34 +34,17 @@
 #opensidebar:checked ~ .navi{
     transform:translateY(0px);
 }
-.navi{
-    background-color:skyblue;
-    position:fixed ;
-    height:100%;
-    width:150px;
-    top:0px;
-    left:0px;
-    margin-top:32px;
-    transform:translatex(-150px);
-    transition:0.5s;
-    z-index:20;
+.Home {
+	text-align:right;
 }
-
-ul{
-   list-style:none;
-   margin:0;
-   padding:0;
+.services{
+	text-align: Center;
 }
-ul li{
-    color:#fff;
-    border-bottom:1px solid rgba(225,225,225,0.5);
+.cars{
+	text-align: Left;
 }
-ul li a{
-    color:#fff;
-    text-decoration:none;
-    display:block;
-    padding:20px;
-    text-transform:uppercase;
+.about{
+	text-align: Center;
 }
 .container{
 display:flex;
