@@ -25,26 +25,14 @@
     z-index:20;
     cursor:pointer;
 }
-.spinner{
-    width:25px;
-    height:5px;  
-    background-color:black;
-    border:2px solid yellow;
-}
-#opensidebar:checked ~ .navi{
-    transform:translateY(0px);
-}
+
+
 .Home {
 	text-align:right;
+	font-family:"Times new Roman", Times,Serif;
+	font-color:grey;
 }
-.services{
-	text-align: Center;
-}
-.cars{
-	text-align: Left;
-}
-.about{
-	text-align: Center;
+
 }
 .container{
 display:flex;
